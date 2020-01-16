@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> A vue  UI component library
+> A vue UI component library
 
 ### 🏠 [Homepage](mui.migao.io)
 
@@ -24,12 +24,9 @@ yarn install
 
 👤 **Migao**
 
-* Website: http://migao.io
-* Github: [@walkingp](https://github.com/walkingp)
+- Website: http://migao.io
+- Github: [@walkingp](https://github.com/walkingp)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
