@@ -1,0 +1,78 @@
+@import "./../../common/color.scss";
+button,
+.button,
+input[type="button"],
+input[type="submit"],
+input[type="number"] {
+  min-width: 100px;
+  display: inline-block;
+  padding: 0 15px;
+  height: 24px;
+  line-height: 24px;
+  color: $gray75;
+  font-size: 13px;
+  letter-spacing: 0;
+  font-family: HelveticaNeue;
+  background-color: $gray05;
+  text-align: center;
+  border: none;
+  outline: none;
+  &.destructive {
+    color: $destructiveRed;
+    &:active {
+      background-color: $destructiveRed;
+      color: $white;
+    }
+  }
+  &[disabled],
+  &.disabled {
+    cursor: not-allowed;
+    color: $gray20;
+  }
+  &.default {
+    background-color: $gray60;
+    &:hover {
+      background-color: $gray70;
+      color: $gray75;
+    }
+  }
+  &:hover {
+    background-color: $gray10;
+  }
+  &:active,
+  &.active {
+    background-color: $activeBlue;
+    color: $white;
+  }
+  .is-small {
+    border-radius: 2px;
+    font-size: 0.75rem;
+  }
+  .is-normal {
+    font-size: 1rem;
+  }
+  .is-medium {
+    font-size: 1.25rem;
+  }
+  .is-large {
+    font-size: 1.5rem;
+  }
+}
+.buttons {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  .button {
+    margin-bottom: 0.5rem;
+    &:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+  }
+  :last-child {
+    margin-bottom: -0.5rem;
+  }
+  :not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,29 +1,35 @@
-# mui
+<h1 align="center">Welcome to mui 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/mui" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/mui.svg">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-## Project setup
-```
+> A vue  UI component library
+
+### 🏠 [Homepage](mui.migao.io)
+
+### ✨ [Demo](mui.migao.io)
+
+## Install
+
+```sh
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Author
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+👤 **Migao**
 
-### Run your tests
-```
-yarn run test
-```
+* Website: http://migao.io
+* Github: [@walkingp](https://github.com/walkingp)
 
-### Lints and fixes files
-```
-yarn run lint
-```
+## Show your support
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

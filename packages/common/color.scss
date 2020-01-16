@@ -1,0 +1,55 @@
+$black: rgba(0, 0, 0, 1);
+$gray75: rgba(0, 0, 0, 0.75);
+$gray70: rgba(0, 0, 0, 0.7);
+$gray60: rgba(0, 0, 0, 0.6);
+$gray50: rgba(0, 0, 0, 0.5);
+$gray30: rgba(0, 0, 0, 0.3);
+$gray20: rgba(0, 0, 0, 0.2);
+$gray10: rgba(0, 0, 0, 0.1);
+$gray05: rgba(0, 0, 0, 0.05);
+$dialogBack: rgba(245, 245, 245, 1);
+$white: rgba(255, 255, 255, 1);
+$white90: rgba(255, 255, 255, 0.9);
+$white60: rgba(255, 255, 255, 0.6);
+$white20: rgba(255, 255, 255, 0.2);
+$activeBlue: rgba(93, 164, 241, 1);
+$info: $activeBlue;
+$okGreen: rgba(142, 222, 132, 1);
+$succ: #60c667;
+$errorRed: rgba(255, 98, 98, 1);
+$error: $errorRed;
+$warnYellow: rgba(255, 206, 83, 1);
+$warn: $warnYellow;
+$kodakRed: rgb(237, 0, 0);
+$kodakYellow: rgb(255, 183, 0);
+$insiteActive: rgba(77, 120, 169, 1);
+$insiteApprove: rgba(92, 189, 116, 1);
+$insiteReject: rgba(255, 98, 98, 1);
+$primay: rgba(64, 64, 64);
+$secondary1: rgb(255, 206, 83);
+$secondary2: rgb(74, 144, 226);
+$background1: rgb(255, 255, 255);
+$background2: rgba(0, 0, 0, 0.14);
+$selection1: rgba(93, 164, 241, 1);
+$selection2: rgba(93, 164, 241, 0.2);
+$destructiveRed: #ff3f3f;
+$tooltipBack: rgba(50, 50, 50, 0.9);
+$hover: rgba(93, 164, 241, 0.35);
+$hover20: rgba(93, 164, 241, 0.2);
+$link: #4990e2;
+
+.info {
+  color: $info;
+}
+.warn {
+  color: $warn;
+}
+.error {
+  color: $error;
+}
+.succ {
+  color: $succ;
+}
+.link {
+  color: $link;
+}
